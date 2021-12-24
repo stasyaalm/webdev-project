@@ -7,7 +7,7 @@ cd .env
 cd Scripts
 activate source
 cd .. webdev-project
-export FLASK_APP=main
-export FLASK_ENV=development
+set FLASK_APP=main
+set FLASK_ENV=development
 flask run
 
